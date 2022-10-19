@@ -1,10 +1,16 @@
 {
 	"name": "Support Assistant",
+	"short_name": "SA",
+	"author": "asitanc",
 	"description": "Support Assistant Botpress extension",
 	"version": "0.0.1",
 	"manifest_version" : 3,
 	"action" : {
 		"default_popup": "src/index.html",
-		"default_icon": "src/icon.png"
+		"default_icon": "src/assets/img/icon.png"
+	},
+	"offline_enabled": false,
+	"icons": {
+		"32": "src/assets/img/icon.png"
 	}
 }
